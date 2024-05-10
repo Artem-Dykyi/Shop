@@ -1,0 +1,45 @@
+.btn-primary {
+    background-color: blueviolet;
+}
+.header-title {
+   
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header {
+    /* background-color: aquamarine; */
+    padding-bottom: 40px;
+}
+
+.availability-wraper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.proces-wrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.proces-title {
+    text-align: center;
+}
+
+.proces {
+    padding-bottom: 80px;
+}
+
+.contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

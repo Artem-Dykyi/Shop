@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header p-3 mb-2 bg-success text-white">
+      <h1 class="container header-title">TYT-tea</h1>
+        <div class="container text-center">
+            <div class="row align-items-center d-flex">
+                <div class="col">
+                    <p><a href="#availability" class="link-info ">НАЯВНІСТЬ</a></p>
+                </div>
+                <div class="col">
+                    <p><a href="#proces" class="link-info ">ПРОЦЕС</a></p>
+                </div>
+                <div class="col">
+                    <p><a href="#contact" class="link-info ">КОНТАКТИ</a></p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="availability p-3 mb-2 bg-primary-subtle text-primary-emphasis" id="availability">
+            <div class="availability-wraper">
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/black-tea.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Чорний чай</h5>
+                    <p class="card-text"> Цей напій має різноманітний смак та аромат, що залежить від сорту чаю, способу його обробки та регіону вирощування.</p>
+                    <a href="#" class="btn btn-primary bg-success border-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">ЗАМОВИТИ</a>
+                    </div>
+                    
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            ...
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/green-tea.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Зелений чай</h5>
+                    <p class="card-text"> Цей напій має різноманітний смак та аромат, що залежить від сорту чаю, способу його обробки та регіону вирощування.</p>
+                    <a href="#" class="btn btn-primary bg-success border-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">ЗАМОВИТИ</a>
+                    </div>
+
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            ...
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./img/fruct-tea.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Фруктовий чай</h5>
+                    <p class="card-text"> Цей напій має різноманітний смак та аромат, що залежить від сорту чаю, способу його обробки та регіону вирощування.</p>
+                    <a href="#" class="btn btn-primary bg-success border-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">ЗАМОВИТИ</a>
+                    </div>
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                ...
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="proces p-3 mb-2 bg-success-subtle text-success-emphasis" id="proces">
+            <h4 class="proces-title">Ці кроки допомагають забезпечити якість та смак чаю від моменту збору до приготування напою.</h4>
+            <div class="container proces-wrap">
+                <!-- <div class="col-4">
+                  <div id="list-example" class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#list-item-1">кроооооок1</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-2">крок 2</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-3">крок 3</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-4">крок 4</a>
+                    <a class="list-group-item list-group-item-action" href="#list-item-5">крок 5</a>
+                  </div>
+                </div> -->
+                <div class="col-8">
+                  <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                    <h4 id="list-item-1">Крок 1</h4>
+                    <p>Вибір оптимального часу для збору: Час збору чаю залежить від сорту та регіону вирощування. Зазвичай, збирають молоді, ніжні верхні листочки та пуп'янки, які мають найкращу якість та смак. Ідеальний час для збору може змінюватися від раннього ранку до середини дня.</p>
+                    <h4 id="list-item-2">Крок 2</h4>
+                    <p>Вручне збирання або машинне збирання: Вибір між вручним або машинним збором чаю залежить від сорту, розміру плантації та доступної робочої сили. Вручне збирання частіше використовується для високоякісних сортів, оскільки це дозволяє вибирати тільки найкращі листочки.</p>
+                    <h4 id="list-item-3">Крок 3</h4>
+                    <p>Обережне збирання із збереженням цілісності листя: Під час збору необхідно уникати пошкодження листя чайного куща. Робітники повинні вміло вирізати листя, щоб зберегти його цілісність та не пошкодити рослину.</p>
+                    <h4 id="list-item-4">Крок 4</h4>
+                    <p>Сортування та відбірка: Після збору листя потрібно сортувати, видаляючи будь-які пошкоджені або непридатні частини. Тільки найкращі та якісні листочки та пуп'янки повинні залишитися для подальшої обробки.</p>
+                    <h4 id="list-item-5">Крок 5</h4>
+                    <p>Упаковка та транспортування: Після сортування чайне листя може бути упаковане в спеціальні контейнери або мішки для транспортування до фабрики обробки. Важливо, щоб чай залишався свіжим та недоторканим під час транспортування, щоб зберегти його якість.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div id="carouselExampleCaptions" class="carousel slide container">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/borka-people.jpg " class="d-block w-100 h-50 d-inline-block" alt="women">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Процес</h5>
+                      <p>Жінка старанно працює</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/uborka-chaya.jpg" class="d-block w-100 h-50 d-inline-block" alt="car-tea">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Процес</h5>
+                      <p>Механізована робота</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/women.jpg" class="d-block w-100 h-50 d-inline-block" alt="people">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Процес</h5>
+                      <p>Ось так люди збирають чай</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section class="contact p-3 mb-2 bg-primary-subtle text-primary-emphasis" id="contact">
+            <div class="container">
+                <p>
+                    <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                    Дізнатись наші контакти
+                    </button>
+                </p>
+                <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                    <div class="card card-body" style="width: 600px;">
+                        <h4>Номер - 050 440 55 99</h4>
+                        <h4>Номер - 066 886 99 07</h4>
+                        <h4>Адреса - вул Чайки 18 місто Львів </h4>
+                        <h4>Менеджер - Улянка</h4>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <h2 >TYT - tea</h2>
+            <p>Завжди раді бачити вас в нашому магазині</p>
+            <p>Дізнавайтесь про новинки</p>
+            <p><a href="">Приєднатись</a></p>
+        </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
